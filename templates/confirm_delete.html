@@ -69,23 +69,6 @@ hr {
   margin-bottom: 25px;
 }
  
-/* The Modal Close Button (x) */
-.close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-  color: #f44336;
-  cursor: pointer;
-}
-
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
@@ -102,7 +85,7 @@ hr {
 <body>
 
 <div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  
   <div class="modal-content">
     <div class="container">
       {% for task in tasks %}
